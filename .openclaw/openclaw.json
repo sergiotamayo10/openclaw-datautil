@@ -8,7 +8,7 @@
     "list": [
       {
         "id": "client-1",
-        "name": "Asistente Cliente 1",
+        "name": "Asistente Ventas Mastin",
         "model": "google/gemini-3.1-flash-lite-preview",
         "workspace": "/data/workspace/client-1"
       }
@@ -17,7 +17,7 @@
   "channels": {
     "telegram": [
       {
-        "token": "${TELEGRAM_TOKEN_1}",
+        "token": "${TELEGRAM_TOKEN_VENTAS_MASTIN}",
         "agentId": "client-1"
       }
     ]
