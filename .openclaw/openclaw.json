@@ -7,58 +7,18 @@
     },
     "list": [
       {
-        "id": "ventas-mastin",
-        "name": "Asistente Ventas Mastin",
+        "id": "client-1",
+        "name": "Asistente Cliente 1",
         "model": "google/gemini-3.1-flash-lite-preview",
-        "workspace": "/data/workspaces/ventas-mastin"
-      },
-      {
-        "id": "client-2",
-        "name": "Asistente Cliente 2",
-        "model": "google/gemini-3.1-flash-lite-preview",
-        "workspace": "/data/workspaces/client-2"
-      },
-      {
-        "id": "client-3",
-        "name": "Asistente Cliente 3",
-        "model": "google/gemini-3.1-flash-lite-preview",
-        "workspace": "/data/workspaces/client-3"
-      },
-      {
-        "id": "client-4",
-        "name": "Asistente Cliente 4",
-        "model": "google/gemini-3.1-flash-lite-preview",
-        "workspace": "/data/workspaces/client-4"
-      },
-      {
-        "id": "client-5",
-        "name": "Asistente Cliente 5",
-        "model": "google/gemini-3.1-flash-lite-preview",
-        "workspace": "/data/workspaces/client-5"
+        "workspace": "/data/workspace/client-1"
       }
     ]
   },
   "channels": {
     "telegram": [
       {
-        "token": "${TELEGRAM_TOKEN_VENTAS_MASTIN}",
+        "token": "${TELEGRAM_TOKEN_1}",
         "agentId": "client-1"
-      },
-      {
-        "token": "${TELEGRAM_TOKEN_2}",
-        "agentId": "client-2"
-      },
-      {
-        "token": "${TELEGRAM_TOKEN_3}",
-        "agentId": "client-3"
-      },
-      {
-        "token": "${TELEGRAM_TOKEN_4}",
-        "agentId": "client-4"
-      },
-      {
-        "token": "${TELEGRAM_TOKEN_5}",
-        "agentId": "client-5"
       }
     ]
   },
